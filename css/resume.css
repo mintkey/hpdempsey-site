@@ -248,9 +248,16 @@
    transition: all .3s ease
  }
 
+ @media screen and (max-width: 767px) {
+   .wrapper {
+      height: 400px;
+   }
+}
+
  .content {
    width: 100%;
    margin: 0 auto;
+   padding-bottom: 1rem;
    display: flex;
    justify-content: left;
    align-items: center
@@ -258,8 +265,10 @@
 
  @media screen and (max-width:767px) {
    .content {
-     padding-top: 300px;
-     flex-direction: row
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     flex-direction: row;
+     flex-wrap: wrap
    }
  }
 
@@ -344,8 +353,8 @@
 
  .card-interests {
    width: 100%;
-   max-width: 250px;
-   min-width: 200px;
+   max-width: 230px;
+   min-width: 180px;
    height: 275px;
    background-color: #17171d;
    margin: 10px;
