@@ -266,8 +266,8 @@
  .card-skills {
    width: 100%;
    max-width: 250px;
-   min-width: 120px;
-   height: 220px;
+   min-width: 110px;
+   height: 200px;
    background-color: #17171d;
    margin: 10px;
    border-radius: 10px;
@@ -303,7 +303,7 @@
    width: 100%;
    margin: 0;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 25px;
    color: white;
    font-weight: 600;
    text-transform: uppercase;
@@ -324,7 +324,7 @@
  }
 
  .card-skills:hover {
-   height: 250px
+   height: 220px
  }
 
  .card-skills:hover .info {
@@ -344,9 +344,9 @@
 
  .card-interests {
    width: 100%;
-   max-width: 300px;
-   min-width: 250px;
-   height: 270px;
+   max-width: 250px;
+   min-width: 200px;
+   height: 275px;
    background-color: #17171d;
    margin: 10px;
    border-radius: 10px;
@@ -367,7 +367,7 @@
    width: 100%;
    margin: 0;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 25px;
    color: white;
    font-weight: 600;
    text-transform: uppercase;
@@ -388,7 +388,7 @@
  }
 
  .card-interests:hover {
-   height: 400px
+   height: 380px
  }
 
  .card-interests:hover .info {
