@@ -9,8 +9,54 @@
    font-weight: 400;
    padding-top: 54px;
    color: #d7d8db;
-   background-color: #17161a
+   background: linear-gradient(270deg, #17161a, #26242d, #382d5a, #4874b2, #382d5a, #26242d, #17161a);
+   background-size: 1400% 1400%;
+   -webkit-animation: AnimationName 45s ease infinite;
+   -moz-animation: AnimationName 45s ease infinite;
+   animation: AnimationName 45s ease infinite
  }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 74%
+  }
+
+  50% {
+    background-position: 100% 27%
+  }
+
+  100% {
+    background-position: 0% 74%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 74%
+  }
+
+  50% {
+    background-position: 100% 27%
+  }
+
+  100% {
+    background-position: 0% 74%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 74%
+  }
+
+  50% {
+    background-position: 100% 27%
+  }
+
+  100% {
+    background-position: 0% 74%
+  }
+}
 
  @media(min-width:992px) {
    body {
