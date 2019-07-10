@@ -240,8 +240,8 @@
 
  .wrapper {
    margin: 0 auto;
-   height: 280px;
-   display: flex;
+   height: 400px;
+   display: inline-block;
    justify-content: center;
    align-items: center;
    position: relative;
@@ -250,25 +250,21 @@
 
  @media screen and (max-width: 767px) {
    .wrapper {
-      height: 400px;
+      height: 700px
    }
 }
 
  .content {
    width: 100%;
    margin: 0 auto;
-   padding-bottom: 1rem;
-   display: flex;
+   display: inline-block;
    justify-content: left;
    align-items: center
  }
 
  @media screen and (max-width:767px) {
    .content {
-     margin-top: 1rem;
-     margin-bottom: 1rem;
-     flex-direction: row;
-     flex-wrap: wrap
+     flex-flow: row wrap
    }
  }
 
