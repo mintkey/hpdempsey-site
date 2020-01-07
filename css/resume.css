@@ -102,34 +102,6 @@
 
  .social-icons a:hover { background-color: #dbf2ff; }
 
- .button a {
-   display: inline-block;
-   padding: 0.35em 1.2em;
-   border: 0.2em solid #d7d8db;
-   margin: 0 0.3em 0.3em 0;
-   border-radius: 2em;
-   box-sizing: border-box;
-   font-family: 'Abel', sans-serif;
-   font-weight: 700;
-   text-align: center;
-   text-decoration: none;
-   text-transform: uppercase;
-   transition: all 0.2s;
- }
-
- .button a:hover {
-   color: #17161a;
-   border-color: #dbf2ff;
-   background-color: #dbf2ff;
- }
-
- @media all and (max-width:30em) {
-   a.button {
-     display: block;
-     margin: 0.4em auto;
-   }
- }
-
  #sideNav .navbar-nav .nav-item .nav-link {
    font-weight: 800;
    letter-spacing: .05rem;
