@@ -95,7 +95,7 @@
    color: #17161a !important;
    background-color: #d7d8db;
    border-radius: 100%;
-   transition: all 0.2s;
+   transition: all 0.5s;
  }
 
  .social-icons a:last-child { margin-right: 0; }
