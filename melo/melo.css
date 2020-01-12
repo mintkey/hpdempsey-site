@@ -96,20 +96,6 @@
    margin-top: -10px;
  }
 
- .container {
-  width: 800px ;
-  max-width: 100% ;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: auto ;
-  margin-right: auto ;
- }
-
- .bg-primary {
-   background-color: #17161a !important;
-   opacity: 0.8;
- }
-
  .text-primary {
    color: #d7d8db !important;
  }
@@ -129,6 +115,15 @@
    padding-right: 20px;
  }
 
+ .container {
+   width: 800px;
+   max-width: 100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
  .left {
    float: left;
  }
@@ -142,10 +137,14 @@
  }
 
  @media screen and (min-width: 320px) and (max-width: 414px) {
-    .container img {
-      display: block;
-      margin: 0 auto;
-     }
+   p {
+     position: relative;
+   }
+
+   .container img {
+     display: block;
+     margin: 0 auto;
+   }
 
    .left {
      float: none;
@@ -153,10 +152,6 @@
 
    .right {
      float: none;
-   }
-
-   p {
-     position: relative;
    }
 
    .text {
