@@ -9,7 +9,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   color: #d7d8db;
-  background: linear-gradient(270deg, #17161a, #382d5a, #4874b2, #382d5a, #17161a);
+  background: linear-gradient(270deg, #17161a, #382d5a, #4874b2);
   background-size: 1000% 1000%;
   -webkit-animation: BackgroundGradient 60s ease infinite;
   -moz-animation: BackgroundGradient 60s ease infinite;
@@ -228,7 +228,6 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #17161a !important;
-  opacity: 0.8;
 }
 
 .text-primary {
